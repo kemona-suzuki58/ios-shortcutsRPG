@@ -35,15 +35,13 @@ Ver.1.0.0 現在、難易度は未実装の機能となっています。
 
 #### セーブデータ保存
 
-只今うまく設定ができておらず、この機能を使用するのはあまりおすすめしません。  
-もし、実装できましたら、ここにワンタップでセーブできる機能を作ろうと考えています。  
-実装までもうしばらくお待ち下さい。  
+この項目では、セーブデータのワンタップ保存とバックアップ機能のONOFFの設定ができます。　　
+また、セーブデータ保存先の名前を変更することにより、複数のセーブデータを保持できます。　　
 
 ### セーブコマンド
 
-このコマンドでは、先程紹介したセーブデータ保存のやり方も含め、  
-デフォルトではメモAppを開き、それを手動で保存していただく形となっています。  
-用途により、ショートカットの項目をご自身で変更したりすることで別の場所に保存していただいたりすることも可能です。  
+このコマンドでは、iOSのショートカットファイル直下にファイルを作成してその中に.txtでセーブデータを保存します。　　
+また、毎回セーブデータは上書き保存されるので前のデータに戻りたい場合はバックアップを開いてください。(セーブデータ機能ONの場合のみ)　　
 
 ## 注意事項等
 
@@ -161,15 +159,13 @@ Here, you will be able to change the level of enemies that will appear in the fu
 
 #### Save data
 
-I haven't set it up right now, so I don't recommend using this feature.  
-If I can implement it, I'm thinking of creating a function that can be saved with one tap here.  
-Please wait for a while until implementation.  
+In this item, you can save the save data with one tap and set the backup function ON / OFF.　　
+You can also retain multiple save data by changing the name of the save data save destination.　　
 
 ### Save command
 
-With this command, including the save data saving method introduced earlier,  
-By default, you open the Memo app and save it manually.  
-Depending on the purpose, you can change the shortcut item yourself and save it in another location.  
+This command creates a file directly under the iOS shortcut file and saves the save data as .txt in it.　　
+Also, the save data will be overwritten each time, so if you want to return to the previous data, open the backup. (Only when the save data function is ON)　　
 
 ## Precautions, etc.
 
