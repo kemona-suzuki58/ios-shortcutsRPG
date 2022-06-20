@@ -87,32 +87,36 @@ RPGのおおよその土台を完成させました。
 の乱数になるようにしました。
 
 #### Ver.1.1.0
-今回のアップデートでは、今までこのゲームでネックだった、ロード機能の不便さだったり、メモの圧迫を軽減することができるようになりました。
-これにより、数タップでデータをロードする事が可能となります。
-また、新しく誤タップや誤操作でゲームを終了してしまった時のためのバックアップ機能を追加しました。
-これを使用するにはセーブデータ機能をONにする必要がありますが、
-毎移動ごとにバックアップフォルダーにデータが追加されます。
+今回のアップデートでは、今までこのゲームでネックだった、ロード機能の不便さだったり、メモの圧迫を軽減することができるようになりました。  
+これにより、数タップでデータをロードする事が可能となります。  
+また、新しく誤タップや誤操作でゲームを終了してしまった時のためのバックアップ機能を追加しました。  
+これを使用するにはセーブデータ機能をONにする必要がありますが、  
+毎移動ごとにバックアップフォルダーにデータが追加されます。  
 
 ### Cheat save data creation
 
 #### Ver.1.0.0
 
-簡単な機能のみをつけた初期型です
+簡単な機能のみをつけた初期型です  
 
 #### Ver.1.0.1
 
-今まで使っていたセーブデータを変更できるような機能を加えました。
+今まで使っていたセーブデータを変更できるような機能を加えました。  
 
 #### Ver.1.1.0
 
-最新のセーブ形式に合わせる形を取りました。
+最新のセーブ形式に合わせる形を取りました。  
+__mainVer.1.1.0対応__  
+
+___
 
 ### AutoPlay
 
 #### Ver.1.0.0
 
-ios-shortcutRPGVer1.1.0を改造してフルオートでコマンドもアラートも通知も出ずに放置しているだけでレベルが上がるやりがいのない物
-ios-shortcutsRPGと合わせてお楽しみください。
+ios-shortcutRPGVer1.1.0を改造してフルオートでコマンドもアラートも通知も出ずに放置しているだけでレベルが上がるやりがいのない物  
+ios-shortcutsRPGと合わせてお楽しみください。  
+__mainVer.1.1.0対応__
 
 ## 今後の更新情報
 
@@ -228,6 +232,7 @@ We have added a function that allows you to change the save data that you have b
 #### Ver.1.1.0
 
 I took the form to match the latest save format.
+__mainVer.1.1.0 compatible__
 
 ### AutoPlay
 
@@ -235,6 +240,7 @@ I took the form to match the latest save format.
 
 It is a worthwhile thing that the level goes up just by modifying ios-shortcutRPG Ver1.1.0 and leaving it unattended without issuing commands, alerts or notifications with full auto
 Please enjoy it together with ios-shortcuts RPG.
+__mainVer.1.1.0 compatible__
 
 ## Future updates
 
