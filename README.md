@@ -73,13 +73,50 @@ Ver.1.0.0 現在、難易度は未実装の機能となっています。
 
 ## これまでの更新情報
 
-Ver.1.0.0 RPGのおおよその土台を完成させました。  
+### main
+
+#### Ver.1.0.0
+RPGのおおよその土台を完成させました。 
+
+#### Ver.1.0.1
+レベルアップの際に上がる能力値の値を上方修正しました。
+今まで1固定になってしまっていたのを
+体力 1~3
+攻撃 1~2
+防御 1~2
+の乱数になるようにしました。
+
+#### Ver.1.1.0
+今回のアップデートでは、今までこのゲームでネックだった、ロード機能の不便さだったり、メモの圧迫を軽減することができるようになりました。
+これにより、数タップでデータをロードする事が可能となります。
+また、新しく誤タップや誤操作でゲームを終了してしまった時のためのバックアップ機能を追加しました。
+これを使用するにはセーブデータ機能をONにする必要がありますが、
+毎移動ごとにバックアップフォルダーにデータが追加されます。
+
+### Cheat save data creation
+
+#### Ver.1.0.0
+
+簡単な機能のみをつけた初期型です
+
+#### Ver.1.0.1
+
+今まで使っていたセーブデータを変更できるような機能を加えました。
+
+#### Ver.1.1.0
+
+最新のセーブ形式に合わせる形を取りました。
+
+### AutoPlay
+
+#### Ver.1.0.0
+
+ios-shortcutRPGVer1.1.0を改造してフルオートでコマンドもアラートも通知も出ずに放置しているだけでレベルが上がるやりがいのない物
+ios-shortcutsRPGと合わせてお楽しみください。
 
 ## 今後の更新情報
 
 今後は、移動した座標に合わせてイベントを起こす機能を追加したり、大きなゲームの進行に影響を与えるバグの改善をする予定です。  
-現在は、セーブデータが正しく読み込まれないバグと、EXPが適切に付与されないバグと、レベルが上がったときに能力値が増えないバグを確認しております。  
-現在対応中ですので、しばらくお待ち下さい。  
 
 ## 細かい仕様説明
 
@@ -158,13 +195,50 @@ If it is difficult to play, you have no choice but to give up. We believe that w
 
 ## Update information so far
 
-We have completed the approximate foundation of Ver.1.0.0 RPG.  
+### main
+
+#### Ver.1.0.0
+We have completed the approximate foundation of the RPG.
+
+#### Ver.1.0.1
+The value of the ability value that goes up when leveling up has been revised upward.
+Until now it was fixed at 1
+Physical strength 1-3
+Attack 1-2
+Defense 1-2
+I tried to make it a random number.
+
+#### Ver.1.1.0
+With this update, you can now reduce the inconvenience of loading and the pressure on your notes, which has been a bottleneck in this game.
+This makes it possible to load data with just a few taps.
+In addition, we have added a new backup function in case the game is terminated due to an erroneous tap or operation.
+To use this, you need to turn on the save data function,
+Data is added to the backup folder for each move.
+
+### Cheat save data creation
+
+#### Ver.1.0.0
+
+It is an early model with only simple functions.
+
+#### Ver.1.0.1
+
+We have added a function that allows you to change the save data that you have been using.
+
+#### Ver.1.1.0
+
+I took the form to match the latest save format.
+
+### AutoPlay
+
+#### Ver.1.0.0
+
+It is a worthwhile thing that the level goes up just by modifying ios-shortcutRPG Ver1.1.0 and leaving it unattended without issuing commands, alerts or notifications with full auto
+Please enjoy it together with ios-shortcuts RPG.
 
 ## Future updates
 
-In the future, we plan to add a function to raise an event according to the moved coordinates and fix a bug that affects the progress of a big game.  
-Currently, we are checking the bug that save data is not read correctly, the bug that EXP is not given properly, and the bug that the ability value does not increase when the level goes up.  
-We are currently working on it, so please wait for a while.  
+In the future, we plan to add a function to raise an event according to the moved coordinates and fix a bug that affects the progress of a big game.   
 
 ## Detailed specification explanation
 
